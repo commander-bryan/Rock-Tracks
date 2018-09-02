@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
 
 const Home = () => (
     <div className="app">
@@ -9,8 +8,5 @@ const Home = () => (
         <Link to="/tracks">Click here to start</Link>
     </div>
 )
-
-Home.propTypes = {
-};
 
 export default Home;

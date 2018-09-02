@@ -9,7 +9,7 @@ describe('TrackEntry', () => {
         artistName: 'test artist',
         trackName: 'test song',
         trackPrice: 1,
-        trackId: 'testId',
+        trackId: 1,
         artworkUrl30: 'testUrl',
         currency: 'USD',
     };
@@ -39,7 +39,7 @@ describe('TrackEntry', () => {
 
         test('should render a Link to TrackDetails', () => {
             expect(component.find('.track-entry__details').find('Link').props().to).toEqual(
-                '/trackDetails/testId',
+                '/trackDetails/1',
             );
         });
     });
