@@ -1,0 +1,37 @@
+.track-entry {
+    background-color: #f5f5f5;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+}
+
+.track-entry__content {
+      width: 70%;
+      height: 30px;
+}
+
+.track-entry__content-title {
+    position: relative;
+    margin-left: 2.5%;
+    top: -7.5px;
+}
+.track-entry__content-artistName {
+    position: relative;
+    margin-left: 2.5%;
+    top: -7.5px;
+}
+.track-entry__content-trackPrice {
+    position: relative;
+    margin-left: 2.5%;
+    top: -7.5px;
+}
+.track-entry__content-artworkUrl30 {
+}
+
+.track-entry__details {
+    width: 30%;
+    height: 30px;
+}

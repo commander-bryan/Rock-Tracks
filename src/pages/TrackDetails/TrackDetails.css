@@ -1,0 +1,33 @@
+.track-details {
+    background-color: #f5f5f5;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.track-details__header {
+    width: 100%;
+    display: flex;
+}
+
+.track-details__header-title {
+
+}
+
+.track-details__header-artworkUrl100 {
+    margin-right: 5%;
+}
+
+.track-details__content {
+    display: grid;
+}
+.track-details__content-artistName,
+.track-details__content-trackPrice,
+.track-details__content-duration,
+.track-details__content-release,
+.track-details__content-itunes {
+    width: 100%;
+    margin-top: 5%;
+}
