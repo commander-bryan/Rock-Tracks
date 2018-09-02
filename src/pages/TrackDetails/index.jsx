@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
+import msToMsAndSs from '../../helpers/millisecondsToMinutesAndSeconds'
 
 import './TrackDetails.css';
 
@@ -47,7 +48,7 @@ class TrackDetails extends React.Component {
                 <div className="track-details__content">
                     <span className="track-details__content-artistName">Artist: {track.artistName}</span>
                     <span className="track-details__content-trackPrice">{this.getCurrencySymbol(track)}{track.trackPrice}</span>
-                    <span className="track-details__content-duration">{track.trackTimeMillis}</span>
+                    <span className="track-details__content-duration">Duration: {msToMsAndSs(track.trackTimeMillis)}</span>
                     <span className="track-details__content-release">Released: {moment(track.releaseDate).format('DD-MM-YYYY')}</span>
                     <a className="track-details__content-itunes" href={track.trackViewUrl}>More details at iTunes</a>
                 </div>
