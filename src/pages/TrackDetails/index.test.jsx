@@ -63,7 +63,7 @@ describe('TrackDetails', () => {
             expect(component.find('.track-details__content-artistName').text()).toEqual('Artist: test artist');
             expect(component.find('.track-details__content-trackPrice').text()).toEqual('$1');
             expect(component.find('.track-details__content-duration').text()).toEqual('1');
-            expect(component.find('.track-details__content-release').text()).toEqual('2013-03-05T08:00:00Z');
+            expect(component.find('.track-details__content-release').text()).toEqual('Released: 05-03-2013');
             expect(component.find('.track-details__content-itunes').props().href).toEqual('testTrackUrl');
         });
     });
