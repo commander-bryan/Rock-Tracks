@@ -42,7 +42,7 @@ class TrackDetails extends React.Component {
         return track ? (
             <div className="track-details">
                 <div className="track-details__header">
-                    <img className="track-details__header-artworkUrl100" src={track.artworkUrl100}></img>
+                    <img className="track-details__header-artworkUrl100" alt="album cover" src={track.artworkUrl100}></img>
                     <h1 className="track-details__header-title">{track.trackName}</h1>
                 </div>
                 <div className="track-details__content">

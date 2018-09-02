@@ -27,7 +27,7 @@ describe('TrackDetails', () => {
             trackName: 'test track 1',
             artistName: 'test artist 1',
             trackPrice: 1,
-            trackId: '1',
+            trackId: 1,
             currency: 'USD',
         },
         {
@@ -35,7 +35,7 @@ describe('TrackDetails', () => {
             trackName: 'test track 2',
             artistName: 'test artist 2',
             trackPrice: 1,
-            trackId: '2',
+            trackId: 2,
             currency: 'GBP',
         }
     ]);
@@ -70,7 +70,7 @@ describe('TrackDetails', () => {
                         "artistName": "test artist 1",
                         "artworkUrl30": "testArtUrl1",
                         "currency": "USD",
-                        "trackId": "1",
+                        "trackId": 1,
                         "trackName": "test track 1",
                         "trackPrice": 1
                     }
@@ -86,7 +86,7 @@ describe('TrackDetails', () => {
                         "artistName": "test artist 2",
                         "artworkUrl30": "testArtUrl2",
                         "currency": "GBP",
-                        "trackId": "2",
+                        "trackId": 2,
                         "trackName": "test track 2",
                         "trackPrice": 1
                     }
